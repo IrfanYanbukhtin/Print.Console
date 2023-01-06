@@ -49,11 +49,25 @@ namespace _06._01._23
 
 
 
+            //for (int i = 0; i < 21; i++)
+            //{
+            //    for (int j = 0; j < 21; j++)
+            //    {
+            //        if (i + j == 10 || j - i == 10 || i == 5 )
+            //            Console.Write("*");
+            //        else
+            //            Console.Write(" ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
             for (int i = 0; i < 21; i++)
             {
                 for (int j = 0; j < 21; j++)
                 {
-                    if (i + j == 10 || j - i == 10 || i == 5 )
+                    if (i + j == 10 || j - i == 10 || i == 5 && j>=i && j<=i+10)
                         Console.Write("*");
                     else
                         Console.Write(" ");
